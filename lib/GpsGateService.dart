@@ -83,7 +83,7 @@ class GpsGateService implements GpsService {
     }
   }
 
-    // Fetch detailed track information (trackinfos)
+  // Fetch detailed track information (trackinfos)
   Future<List<TrackInfo>> getVehicleTrackInfo(String vehicleId) async {
     final response = await http.get(
       Uri.parse(
